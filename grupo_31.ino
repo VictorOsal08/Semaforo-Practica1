@@ -21,7 +21,7 @@ void loop()
     digitalWrite(5, HIGH);
     digitalWrite(9, HIGH);
     delay(2000); // Wait for 2000 milliseconds
-    
+
     digitalWrite(8, HIGH);
     digitalWrite(12, HIGH);
     delay(5000); // Wait for 5000 milliseconds
@@ -35,4 +35,25 @@ void loop()
     digitalWrite(13, HIGH);
     digitalWrite(5, LOW);
     digitalWrite(7, HIGH);
+
+    delay(2000); // Wait for 2000 milliseconds
+    digitalWrite(4, HIGH);
+    digitalWrite(12, HIGH);
+    delay(5000); // Wait for 5000 milliseconds
+    digitalWrite(4, LOW);
+    digitalWrite(12, LOW);
+    delay(2000); // Wait for 2000 milliseconds
+    digitalWrite(7, LOW);
+    digitalWrite(6, HIGH);
+    delay(3000); // Wait for 3000 milliseconds
+    digitalWrite(6, LOW);
+    digitalWrite(5, HIGH);
+    digitalWrite(11, HIGH);
+    digitalWrite(9, LOW);
+    delay(2000); // Wait for 2000 milliseconds
+    digitalWrite(8, HIGH);
+    digitalWrite(4, HIGH);
+    delay(5000); // Wait for 5000 milliseconds
+    digitalWrite(8, LOW);
+    digitalWrite(4, LOW);
 }
