@@ -16,4 +16,9 @@ pinMode(10, OUTPUT);
 
 void loop()
 {
+    digitalWrite(13, LOW);
+    digitalWrite(3, HIGH);
+    digitalWrite(5, HIGH);
+    digitalWrite(9, HIGH);
+    delay(2000); // Wait for 2000 milliseconds
 }
